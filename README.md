@@ -2,6 +2,8 @@
 
 This is a response to professor  <a href="https://yoavartzi.com/"><strong>Yoav Artzi's</strong></a> NLP application prompt.
 
+
+
 - Submitted by Maitreyi Chatterjee(mc2259)
 
 # Abstract:
