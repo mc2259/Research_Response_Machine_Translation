@@ -6,7 +6,7 @@ This is a response to professor  <a href="https://yoavartzi.com/"><strong>Yoav A
 
 - Submitted by Maitreyi Chatterjee(mc2259)
 
-# Abstract:
+# Abstract for the paper:
 In this paper, I am using attention and a transformer based architecture to detect whether the translation is a human translation or a machine translation. After training my model for 3 epochs with a learning rate of 1e-4 and a batch size of 4, I am able to achieve an F1 score of 0.885( without using BLEU and lexical features) and 0.8333( after using BLEU and lexical features). Currently, most machine translation systems are either static machine translation systems or neural machine translation systems. These systems fail on large sentences and out of vocabulary terms. In this project, we adapt a many-to-many transformer architecture for the binary classification task of predicting a translation as ‘H’ or ‘M’, based on syntactical, lexical and emotional features in the data.
 
  Although transformers are usually not used for binary classification problems and SVMs are often preferred, I use the T5 text-to-text model  and modify it for our binary classification task because it has been pre-trained on  translation tasks and this leads me to believe that it would perform better in differentiating between machine translation and human translation. This is because the closer the downstream task is to the pre-training, the better is the expected performance. T5  generally performs well on machine translation tasks, so I decided to adapt it to our custom task. Here is the paper for T5: 
