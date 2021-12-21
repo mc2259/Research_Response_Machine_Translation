@@ -1,10 +1,7 @@
-# Research_Response_Machine_Translation
+# Research_Response_Machine_Translation 
+- Maitreyi Chatterjee
 
 This is a response to professor  <a href="https://yoavartzi.com/"><strong>Yoav Artzi's</strong></a> NLP application prompt.
-
-
-
-- Submitted by Maitreyi Chatterjee(mc2259)
 
 # Abstract for the paper:
 In this paper, I am using attention and a transformer based architecture to detect whether the translation is a human translation or a machine translation. After training my model for 3 epochs with a learning rate of 1e-4 and a batch size of 4, I am able to achieve an F1 score of 0.885( without using BLEU and lexical features) and 0.8333( after using BLEU and lexical features). Currently, most machine translation systems are either static machine translation systems or neural machine translation systems. These systems fail on large sentences and out of vocabulary terms. In this project, we adapt a many-to-many transformer architecture for the binary classification task of predicting a translation as ‘H’ or ‘M’, based on syntactical, lexical and emotional features in the data.
